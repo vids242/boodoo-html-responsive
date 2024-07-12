@@ -1,0 +1,846 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.commun-button {
+    display: inline-block;
+    width: 30rem;
+    padding: 1.5rem 0;
+    font-size: 2.4rem;
+    background-color: #C8191C;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 8.4rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-title {
+    font-size: 2.4rem;
+    color: #C8191C;
+    text-transform: uppercase;
+}
+
+
+/* ******************header******************** */
+
+header ul li a {
+    font-size: 1.8rem;
+    display: inline-block;
+}
+
+header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 3rem;
+    z-index: 999;
+}
+
+/* *********************************************** */
+
+
+
+/* *******************hero********************** */
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    position: relative;
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/hero-banner.png);
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.2;
+}
+
+.hero-data {
+    padding-top: 30rem;
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.hero-data h1 {
+    font-size: 13rem;
+    font-weight: bold;
+    color: white;
+    line-height: 16rem;
+}
+
+.hero-data h1 span {
+    color: #C8191C;
+}
+
+.hero-data p {
+    font-size: 1.8rem;
+    color: white;
+    margin: 5.5rem 0;
+}
+
+
+/* *********************************************** */
+
+
+
+/* ***************About************************** */
+
+#about {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+
+.about-loopkad {
+    justify-content: space-around;
+    text-align: center;
+    row-gap: 5rem;
+}
+
+.about-loopkad img {
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+}
+
+.about-loopkad h3 {
+    font-size: 5.4rem;
+    color: white;
+    margin-top: 3rem;
+}
+
+
+.discover-boodoo {
+    padding-top: 20rem;
+    justify-content: space-between;
+    row-gap: 5rem;
+}
+
+.disc-about {
+    padding-left: 11.5rem;
+}
+
+
+
+.disc-img img {
+    width: 100%;
+    height: 50.6rem;
+    object-fit: cover;
+    padding-right: 11.5rem;
+    border-right: 2px solid white;
+
+}
+
+.disc-img p {
+    font-size: 1.8rem;
+    margin-top: 10rem;
+    color: white;
+    max-width: 54.1rem;
+}
+
+.disc-about .sub-title {
+    margin: 3rem 0 12rem 0;
+}
+
+
+/* *********************************************** */
+
+
+/* ********************super********************** */
+
+#super {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+.super-img h2 {
+    font-size: 14rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 11.5rem;
+}
+
+.super-details {
+    row-gap: 5rem;
+}
+
+.super-img p {
+    font-size: 1.8rem;
+    color: white;
+    max-width: 48.5rem;
+}
+
+.team-bd .team-member {
+    padding-left: 8.8rem;
+    row-gap: 5rem;
+}
+
+.team-bd h2 {
+    font-size: 13rem;
+    color: white;
+    margin-top: 10.4rem;
+    font-weight: bold;
+}
+
+/* *********************************************** */
+
+
+/* ******************services********************** */
+
+#services {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#services .sub-title {
+    text-align: center;
+    padding: 0 7.1rem;
+    line-height: 12rem;
+}
+
+#services .main-title {
+    text-align: center;
+}
+
+.astrology-ditaile {
+    padding-top: 10rem;
+    justify-content: space-around;
+    row-gap: 15rem;
+}
+
+.astro-data {
+    padding: 5rem;
+    border: 2px solid white;
+}
+
+.astro-data img {
+    width: 100%;
+    height: 32.4rem;
+    object-fit: cover;
+}
+
+.astro-data h2 {
+    font-size: 4.4rem;
+    color: white;
+    margin: 5rem 0 3rem 0;
+}
+
+.astro-data p {
+    font-size: 1.8rem;
+    color: white;
+}
+
+
+
+/* *********************************************** */
+
+
+/* ***************choose-boodoo************************ */
+
+#choose-boodoo {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#choose-boodoo .sub-title {
+    text-align: center;
+    padding: 0 7.1rem;
+}
+
+#choose-boodoo .main-title {
+    text-align: center;
+}
+
+.data-privacy {
+    margin-top: 17.2rem;
+    justify-content: space-between;
+    row-gap: 5rem;
+}
+
+.choose-img {
+    text-align: center;
+}
+
+.choose-img h2 {
+    font-size: 3.2rem;
+    color: white;
+    margin: 3rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.choose-img p {
+    font-size: 1.8rem;
+    color: white;
+
+}
+
+.choose-img img {
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+}
+
+/* *********************************************** */
+
+
+/* *******************horoscope********************* */
+
+#horoscope {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#horoscope .sub-title {
+    text-align: center;
+    padding: 0 7.1rem;
+}
+
+#horoscope .main-title {
+    text-align: center;
+}
+
+.horoscope-science {
+    margin-top: 10rem;
+}
+
+.science-ditaile-2 {
+    justify-content: flex-end;
+    column-gap: 4rem;
+    margin-top: 10rem;
+    row-gap: 5rem;
+}
+
+.science-ditaile-1 {
+    justify-content: flex-start;
+    margin-top: 10rem;
+    column-gap: 4rem;
+    row-gap: 5rem;
+}
+
+.science-data {
+    justify-content: center;
+}
+
+.scin-data img {
+    width: 13.5rem;
+    height: 16.8rem;
+}
+
+.science-data h2 {
+    font-size: 5.4rem;
+    color: white;
+}
+
+.science-data p {
+    font-size: 1.8rem;
+    color: white;
+}
+
+#horoscope .commun-button {
+    margin-top: 10rem;
+}
+
+.team-detail {
+    justify-content: space-between;
+    margin-top: 20rem;
+    row-gap: 5rem;
+}
+
+.team-data {
+    text-align: center;
+}
+
+.team-data h3 {
+    font-size: 3.2rem;
+    color: #C8191C;
+    text-transform: uppercase;
+}
+
+.team-data h2 {
+    font-size: 10rem;
+    color: white;
+}
+
+/* *********************************************** */
+
+
+/* ******************appointment********************* */
+
+#appointment {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    padding-bottom: 20rem;
+}
+
+.appoint-detail {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.appointment-title {
+    padding: 22.4rem 0;
+}
+
+.appoint-form form {
+    justify-content: space-between;
+}
+
+.appoint-form form input,
+select {
+    width: 100%;
+    display: block;
+    font-size: 2.4rem;
+    padding: 3.3rem 3rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white !important;
+}
+
+.form-data {
+    margin-bottom: 8rem;
+    row-gap: 5rem;
+}
+
+.input-box {
+    row-gap: 5rem;
+}
+
+.form-data .input-box:first-child {
+    padding: 0 4rem 0 0;
+}
+
+.form-data .input-box:last-child {
+    padding: 0 0 0 4rem;
+}
+
+
+.appoint-form form label {
+    font-size: 3.2rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+/* *********************************************** */
+
+
+/* ***************membership*********************** */
+
+#membership {
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+#membership::before {
+    content: '';
+    background-image: url(../image/hero-2.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 50vh;
+    opacity: 0.2;
+}
+
+#membership .container .commun-button {
+    position: relative;
+}
+
+#membership .container {
+    text-align: center;
+}
+
+#membership h2 {
+    padding-top: 10.5rem;
+    text-align: center;
+}
+
+#membership p {
+    font-size: 1.8rem;
+    color: white;
+    max-width: 89.8rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+/* *********************************************** */
+
+
+/* ******************Price********************** */
+
+#price {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#price h3 {
+    text-align: center;
+}
+
+#price h2 {
+    text-align: center;
+}
+
+.price-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.membership-price {
+    justify-content: space-between;
+    margin-top: 8rem;
+    row-gap: 5rem;
+}
+
+.starter,
+.value,
+.premium {
+    padding: 6rem 7.7rem;
+    border: 2px solid white;
+}
+
+.starter-data {
+    padding-right: 8rem;
+}
+
+.value-data {
+    padding: 0 4rem;
+}
+
+.premium-data {
+    padding-left: 8rem;
+}
+
+.starter:hover {
+    background-color: #C8191C;
+    border: none;
+}
+
+.value:hover {
+    background-color: #C8191C;
+    border: none;
+}
+
+.premium:hover {
+    background-color: #C8191C;
+    border: none;
+}
+
+.starter:hover .start-btn {
+    background-color: white;
+    color: #C8191C;
+    font-weight: bold;
+}
+
+.value:hover .value-btn {
+    background-color: white;
+    color: #C8191C;
+    font-weight: bold;
+}
+
+.premium:hover .premium-btn {
+    background-color: white;
+    color: #C8191C;
+    font-weight: bold;
+}
+
+.membership-price h3 {
+    font-size: 2.4rem;
+    color: white;
+}
+
+.membership-price h2 {
+    font-size: 7.2rem;
+    color: white;
+    margin: 3rem 0;
+    text-align: left !important;
+}
+
+.membership-price h2 span {
+    font-size: 2.4rem;
+}
+
+.start-data {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.start-data img {
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-right: 2rem;
+}
+
+.start-data p {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.membership-price .commun-button {
+    margin-top: 8rem;
+}
+
+/* *********************************************** */
+
+
+/* *******************Happy Client*********************** */
+
+#happy-client {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#happy-client .container>h2 {
+    font-size: 14rem;
+    color: white;
+    text-align: center;
+}
+
+#happy-client .container>img {
+    padding: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.client-details p {
+    font-size: 1.8rem;
+    color: white;
+    padding-top: 1.5rem;
+    max-width: 46.5rem;
+}
+
+.client-details h5 {
+    font-size: 2.4rem;
+    color: white;
+}
+
+#happy-client .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+#happy-client .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#happy-client .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.happyData {
+    margin: 0 16rem;
+}
+
+.happyData img {
+    width: 100%;
+    height: 52rem;
+    object-position: center center;
+    padding-bottom: 7.7rem;
+    object-fit: cover;
+}
+
+.client-details {
+    position: relative;
+}
+
+.client-details::before {
+    content: '';
+    position: absolute;
+    top: -4rem;
+    left: -4rem;
+    width: 9.8rem;
+    height: 8.5rem;
+    background-image: url(../image/coma.png);
+}
+
+.swiper-button-next {
+    color: white;
+}
+
+.swiper-button-prev {
+    color: white;
+}
+
+
+/* *********************************************** */
+
+
+/* *******************blog*********************** */
+
+#blog {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#blog .container>.sub-title {
+    text-align: center;
+}
+
+#blog .container>.main-title {
+    text-align: center;
+}
+
+.blog-data {
+    margin-top: 8rem;
+    row-gap: 5rem;
+}
+
+.blog-detail {
+    padding: 0 2rem;
+}
+
+.blog-detail img {
+    width: 100%;
+    height: 45rem;
+    object-fit: cover;
+}
+
+.blog-detail h4 {
+    font-size: 2.4rem;
+    max-width: 29.8rem;
+    color: white;
+    text-transform: uppercase;
+    margin: 6rem 0 2rem 0;
+}
+
+.blog-detail p {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.blog-detail p a {
+    color: #0085FF;
+}
+
+/* *********************************************** */
+
+
+/* ******************footer********************** */
+footer {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    padding-bottom: 20rem;
+}
+
+footer .container {
+    border-top: 0.2rem solid white;
+    border-bottom: 0.1rem solid white;
+}
+
+.footer-detail {
+    padding-top: 8rem;
+    justify-content: space-around;
+    row-gap: 5rem;
+}
+
+
+.footer-img img {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.footer-img p {
+    max-width: 27.3rem;
+    font-size: 1.8rem;
+    color: white;
+    margin: 0 auto;
+}
+
+.footer-data h3 {
+    font-size: 3.2rem;
+    color: white;
+}
+
+.footer-data ul li a {
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.footer-data ul li a:hover {
+    color: #C8191C;
+}
+
+.footer-data ul li {
+    margin-top: 2rem;
+}
+
+.footer-data ul {
+    padding: 0;
+}
+
+.footer-data ul li a i {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.map-img img {
+    width: 100%;
+    height: 18.5rem;
+    object-fit: cover;
+    margin-top: 2rem;
+}
+
+.copy-right {
+    margin: 8rem 0 4.5rem 0;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* *********************************************** */

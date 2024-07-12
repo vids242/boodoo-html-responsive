@@ -1,0 +1,426 @@
+/* 0 - 575    1rem = 7px   xs*/
+@media screen and (max-width:575px) {
+    html {
+        font-size: 43.75%;
+    }
+
+    .sub-title {
+        font-size: 5rem;
+    }
+
+    #hero::before {
+        height: 80vh;
+    }
+
+    #hero {
+        height: 80vh;
+    }
+
+    #services .sub-title {
+        line-height: 7rem;
+    }
+
+    .about-loopkad h3 {
+        font-size: 4rem;
+    }
+
+    .disc-img img {
+        padding-right: 0;
+        border: none;
+    }
+
+    .disc-about {
+        padding-left: 0;
+    }
+
+    .team-bd .team-member {
+        padding-left: 0;
+    }
+
+    .super-img h2 {
+        font-size: 8rem;
+    }
+
+    .team-bd h2 {
+        font-size: 7rem;
+    }
+
+    .science-data {
+        column-gap: 2rem;
+    }
+
+    .form-data .input-box:first-child {
+        padding: 0 0rem 0 0;
+    }
+
+    .form-data .input-box:last-child {
+        padding: 0 0 0 0rem;
+    }
+
+    .form-data {
+        padding: 0 1rem;
+    }
+
+    #membership::before {
+        height: 40vh;
+    }
+
+    #membership {
+        height: 40vh;
+    }
+
+    .starter,
+    .value,
+    .premium {
+        padding: 6rem 2rem;
+    }
+
+    .starter-data {
+        padding-right: 0;
+    }
+
+    .value-data {
+        padding: 0 0;
+    }
+
+    .premium-data {
+        padding-left: 0;
+    }
+
+    .footer-detail {
+        text-align: center;
+    }
+
+    .footer-img img {
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .footer-img p {
+        margin: 0 auto;
+    }
+
+    .hero-data h1 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .client-details::before {
+        width: 13.8rem;
+        height: 12.5rem;
+    }
+
+    #happy-client .container>h2 {
+        font-size: 9rem;
+    }
+
+    .astrology-ditaile {
+        padding: 0 1rem;
+    }
+
+
+    .astro-data h2 {
+        font-size: 3.7rem;
+    }
+
+    #horoscope .sub-title {
+        padding: 0 0.5rem;
+    }
+}
+
+/* 576 - 767    1rem = 7px    sm*/
+@media screen and (min-width:576px) {
+    html {
+        font-size: 43.75%;
+    }
+
+    .about-loopkad h3 {
+        font-size: 4rem;
+    }
+
+    .disc-img img {
+        padding-right: 0;
+        border: none;
+    }
+
+    .disc-about {
+        padding-left: 0;
+    }
+
+    .team-bd .team-member {
+        padding-left: 0;
+    }
+
+    .science-data {
+        column-gap: 2rem;
+    }
+
+    .form-data .input-box:first-child {
+        padding: 0 0rem 0 0;
+    }
+
+    .form-data .input-box:last-child {
+        padding: 0 0 0 0rem;
+    }
+
+    .client-details::before {
+        width: 13.8rem;
+        height: 12.5rem;
+    }
+
+    #membership::before {
+        height: 50vh;
+    }
+
+    #membership {
+        height: 50vh;
+    }
+
+    .starter-data {
+        padding-right: 0;
+    }
+
+    .value-data {
+        padding: 0 0;
+    }
+
+    .premium-data {
+        padding-left: 0;
+    }
+
+    .hero-data h1 {
+        font-size: 9rem;
+        line-height: 13rem;
+    }
+}
+
+/* 768 - 991    1rem = 8px   md*/
+@media screen and (min-width:768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .membership-price {
+        justify-content: space-around;
+    }
+
+    .starter,
+    .value,
+    .premium {
+        padding: 6rem 3rem;
+    }
+
+    .happyData {
+        margin: 0 25rem;
+    }
+
+    .membership-price {
+        row-gap: 8rem;
+    }
+
+    .hero-data h1 {
+        font-size: 11rem;
+        line-height: 16rem;
+    }
+
+    .client-details::before {
+        width: 11.8rem;
+        height: 10.5rem;
+    }
+}
+
+/* 992 - 1199    1rem = 8px   lg*/
+@media screen and (min-width:992px) {
+    .disc-about .sub-title {
+        margin: 3rem 0 6rem 0;
+    }
+
+    .disc-img img {
+        padding-right: 6rem;
+        border-right: 2px solid white;
+    }
+
+    .disc-about {
+        padding-left: 6rem;
+    }
+
+    .super-img h2 {
+        font-size: 10rem;
+    }
+
+    .team-bd h2 {
+        font-size: 9rem;
+    }
+
+    .team-bd .team-member {
+        padding-left: 8.8rem;
+    }
+
+    .science-data {
+        column-gap: 0rem;
+    }
+
+    .form-data .input-box:first-child {
+        padding: 0 4rem 0 0;
+    }
+
+    .form-data .input-box:last-child {
+        padding: 0 0 0 4rem;
+    }
+
+    .membership-price {
+        justify-content: space-around;
+    }
+
+    .starter,
+    .value,
+    .premium {
+        padding: 6rem 7rem;
+    }
+
+    .starter-data {
+        padding-right: 0;
+    }
+
+    .value-data {
+        padding: 0 0;
+    }
+
+    .premium-data {
+        padding-left: 0;
+    }
+
+    .happyData {
+        margin: 0 16rem;
+    }
+
+    .membership-price {
+        row-gap: 14rem;
+    }
+
+    .hero-data h1 {
+        font-size: 13rem;
+    }
+
+    .client-details::before {
+        width: 10.8rem;
+        height: 9.5rem;
+    }
+}
+
+/* 1200 - 1399     1rem = 9px   xl*/
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .about-loopkad h3 {
+        font-size: 4rem;
+    }
+
+    .disc-about .sub-title {
+        margin: 3rem 0 8rem 0;
+    }
+
+    .disc-img img {
+        padding-right: 11.5rem;
+    }
+
+    .disc-about {
+        padding-left: 11.5rem;
+    }
+
+    .super-img h2 {
+        font-size: 11rem;
+    }
+
+    .team-bd h2 {
+        font-size: 10rem;
+    }
+
+    .science-data {
+        column-gap: 0rem;
+    }
+
+    .client-details::before {
+        width: 9.8rem;
+        height: 8.5rem;
+    }
+
+
+}
+
+/* 1400 - 1919     1rem = 10px   xxl*/
+@media screen and (min-width:1400px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .about-loopkad h3 {
+        font-size: 4.3rem;
+    }
+
+    .disc-about .sub-title {
+        margin: 3rem 0 12rem 0;
+    }
+
+    .starter-data {
+        padding-right: 4rem;
+    }
+
+    .value-data {
+        padding: 0 2rem;
+    }
+
+    .premium-data {
+        padding-left: 4rem;
+    }
+
+    .starter,
+    .value,
+    .premium {
+        padding: 6rem 4rem;
+    }
+
+    .membership-price {
+        justify-content: space-between;
+    }
+
+}
+
+/* 1920 - any    1rem = 10px    xxl*/
+@media screen and (min-width:1920px) {
+    .container {
+        max-width: 165rem;
+    }
+
+    .about-loopkad h3 {
+        font-size: 5.4rem;
+    }
+
+    .super-img h2 {
+        font-size: 14rem;
+    }
+
+    .team-bd h2 {
+        font-size: 13rem;
+    }
+
+    .starter-data {
+        padding-right: 8rem;
+    }
+
+    .value-data {
+        padding: 0 4rem;
+    }
+
+    .premium-data {
+        padding-left: 8rem;
+    }
+
+    .starter,
+    .value,
+    .premium {
+        padding: 6rem 7.7rem;
+    }
+}
